@@ -290,7 +290,7 @@ Besides, using ``xkalamine`` with ``sudo`` supposes kalamine has been installed 
    ln -s /path/to/pyenv/bin/kalamine
    ln -s /path/to/pyenv/bin/xkalamine
 
-Sadly, it seems there’s no way to install keyboard layouts in ``~/.config/xkb`` for X.Org. The system keyboard preferences will probably list user-space kayouts, but they won’t be usable on X.Org.
+Sadly, it seems there’s no way for ``xkalamine`` to install keyboard layouts in ``~/.config/xkb`` for X.Org. The system keyboard preferences will probably list user-space kayouts, but they won’t be usable on X.Org. If you want custom keymaps on your machine, use ``kalamine`` (and ``xkbcomp``) instead of ``xkalamine``.
 
     If you want custom keymaps on your machine, switch to Wayland (and/or fix any remaining issues preventing you from doing so) instead of hoping this will ever work on X.
 
